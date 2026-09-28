@@ -1,0 +1,36 @@
+# Proyecto de Inteligencia Artificial - Deserción Estudiantil en Perú
+
+Este proyecto se desarrolla en **Google Colab** y utiliza datasets oficiales del **Portal Nacional de Datos Abiertos del Perú** para entrenar y evaluar modelos de Machine Learning relacionados con la deserción estudiantil.
+
+---
+
+## Pasos de instalación y preparación
+
+### 1. Descarga de datasets
+- Accede al **Portal Nacional de Datos Abiertos del Perú**: https://www.datos.gob.pe  
+- Identifica y descarga los **Dataset 1** y **Dataset 2** relacionados con educación y deserción estudiantil.  
+- Verifica que la fuente sea oficial y que los archivos estén en formato **CSV** o **XLSX**.
+
+### 2. Subida a Google Drive
+- Crea una carpeta en tu Google Drive llamada `datasets_desercion`.  
+- Sube los archivos descargados (`dataset1.csv`, `dataset2.csv`) a esa carpeta.  
+- Asegúrate de mantener nombres claros y consistentes.
+
+### 3. Configuración en Google Colab
+En tu notebook de Colab:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Ruta a la carpeta de datasets
+data_path = '/content/drive/MyDrive/'
+
+import pandas as pd
+
+# Cargar datasets
+df1 = pd.read_csv(data_path + 'dataset1.csv')
+df2 = pd.read_csv(data_path + 'dataset2.csv')
+
+print(df1.head())
+print(df2.head())
