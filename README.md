@@ -8,7 +8,7 @@ Autor: Nicolas Torres Yucra
 ---
 
 ## 1. ¿Cuál es el problema?
-La **deserción estudiantil universitaria en Perú** es un fenómeno creciente que afecta la calidad educativa y la planificación institucional. El reto es **predecir qué estudiantes tienen mayor riesgo de abandonar sus estudios**.
+La **deserción estudiantil  en Perú** es un fenómeno creciente que afecta la calidad educativa y la planificación institucional. El reto es **predecir qué estudiantes tienen mayor riesgo de abandonar sus estudios**.
 
 ---
 
